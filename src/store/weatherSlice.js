@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const API_KEY = '172646d116f38bee80ab80a5632cc13c';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
-const GEO_URL = 'http://api.openweathermap.org/geo/1.0';
+const GEO_URL = 'https://api.openweathermap.org/geo/1.0';
 
 // Fetch weather data using coordinates
 export const fetchCurrentWeather = createAsyncThunk(
